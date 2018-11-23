@@ -1,8 +1,172 @@
+body {
+  background: #FAEBD7;
+  background: -webkit-linear-gradient(-45deg, #A9A9A9, #F8F8FF);
+  background: linear-gradient(-45deg, #F8F8FF, #A9A9A9);
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-font-size: 36px;
-color: red;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  width: 50%;
+  line-height: 1.3em;
+  height: 350px;
+  letter-spacing: 2.5px;
+  text-shadow: 3px 2px #c0c2c4;
+
+
+}
+
+.title {
+  background-image: url("cats.jpg");
+  max-width:100%;
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  opacity: 0.85;
+  border-radius: 8px;
+}
+
+p {
+   font-size: 21px;
+   text-align: center;
 }
 
 ul {
   display = inline;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+
+
+.navigation {
+  font-style: italic;
+  text-align: center;
+}
+
+h2.general {
+  text-align: center;
+  font-size: 40px;
+
+}
+
+h2.Romania {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2.Slovakia{
+  text-align: center;
+  font-size: 40px;
+
+}
+
+h2.girls {
+  text-align: center;
+  font-size: 40px;
+
+}
+
+
+.imageSlov {
+  background-image: url("apple.jpg");
+  max-width:100%;
+  height:auto;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  opacity: 0.85;
+  }
+
+.imageRom {
+  background-image: url("angels.jpg");
+  max-width: 100%;
+  height:auto;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  opacity: 0.75;
+  }
+.imageGirls {
+  background-image: url("flowers.jpg");
+  max-width: 100%;
+  height:auto;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  opacity: 0.75;
+  }
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color: black;
+  color: black;
+  text-decoration: none;
+
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+}
+.forgirls,
+.positive {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.imageRom:hover,
+.imageSlov:hover,
+.imageGirls:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+@media screen and (min-width: 601px) {
+
+  div.Romania,
+  div.Slovakia,
+  div.for_girls {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.Romania,
+  div.Slovakia,
+  div.for_girls {
+    font-size: 30px;
+  }
 }
