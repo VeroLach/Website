@@ -1,0 +1,233 @@
+/* CSS stylesheet */ 
+
+/*================================================================
+Deafult Values
+
+Font Family
+buttons, icons, links, liners, headings, 
+
+
+
+
+
+===================================================================*/
+
+/*General CSS*/ 
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #41606B;
+}
+
+p {
+    color: #182B32 ;
+    font-size: 116%;
+    font-weight: 400;
+    text-align: center; 
+}
+
+.jumbotron{
+    background-image: url(/Img/food_banner.jpg); 
+    height: 300px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*======================================================
+                Content Generic 
+
+=======================================================*/
+.content-box {
+    padding: 5% 0 5% 0;
+}
+.content-title h2{
+   font-size: 380%; 
+    font-weight: 900;
+    text-align: center;
+    margin: 3% 1% 3% 1%;
+    text-transform: uppercase; 
+}
+.content-title h3 {
+    font-size: 210%;
+    font-weight: 700;
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+.content-title-underline {
+    width: 15%;
+    height: 3px;
+    background-color: #ec8382;
+    margin: 0 auto 4% auto;
+}
+
+
+/*==================================================
+               Food Section General
+===================================================*/
+.service-item {
+   padding: 2% 0 2% 0; 
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+
+.service-item-icon {
+ color: #3c493f;
+    padding: 1%;
+    margin: 2% 1% 2% 1%;  
+    text-align: center;
+}
+
+
+.service-item-title h3 {
+    font-size: 160%;
+    font-weight: 700;
+    margin: 1% 0 1% 0;
+}
+
+.service-item-desc p {
+    margin: 4%;
+    text-align: left; 
+    font-weight: 300;
+}
+/*==================================================
+               Food Section - Food introduction
+===================================================*/
+/*#food-1-bg-diagobal{
+    width: 35%;
+    height: 100%;
+    float: right;
+    background-image: url(../Img/DSC08230.JPG);
+    border-top: 500px solid transparent;
+}*/
+food-1-content-box{
+     float: left;
+    height: 300%;
+}
+#food-1-content-box-outer {
+     width: 55%;
+    height: 55%;
+    display: table;
+    margin-top: 3%
+}
+
+#food-1-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+    
+#food-1-desc .p {
+    text-align: left; }
+   
+#food-1 .content-title h3{ 
+    text-align: left;
+    
+   
+}
+
+/*#img-1{  
+    float: right;
+    border-left: 30px solid #fff;
+    border-top: 20px solid transparent;*/
+}
+#food-1-desc p {
+    text-align: left; 
+  
+}
+/*=====================================================
+                Food Section
+======================================================*/
+
+img {
+    margin: 3% 3% 3% 3%; 
+}
+p {
+    height: 100%;
+    flex-direction: row; 
+    display: flex;
+    justify-content: center;
+}
+
+/*====================================================
+                HOME SECTION 
+======================================================*/
+
+/*==================================================
+                PARALLAX (Generic)
+===================================================*/
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home-cover {
+    background-image: url(../Img/anthony-delanoix-575672-unsplash.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px; 
+}
+.btn-pink {
+    border-radius: 0;
+    padding: 1% 2% 1% 2%;
+    font-size: 116%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#home-heading h1 {
+    color: #a2e3c4;
+    font-size: 550%;
+    font-weight: 900;
+    margin: 15% 2% 5% 5%;
+}
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+    
+} 
+.btn-pink {
+    border-color: #E8AEB7;
+    color: #E8AEB7;
+     border-radius: 3%;
+    padding: 1% 2% 1% 2%;
+    font-size: 116%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.btn.pink:hover,
+.btn-pink:focus {
+    background-color: #FFFCEA;
+    color: #BC527E;
+}
+
+#aboutUs {
+    background-image: url(../Img/pattern-2054297_1920.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center:    
+}
+
+#tatra.bg {
+    width: 100%;
+    height: 200px;
+    background-image: url(../Img/clouds-high-tatras-lake-91222.jpg); 
+    margin-bottom: 4%;
+    
+}
+#aboutUs p{
+    text-align: center; 
+    font-weight: 500i; 
+    font-size: 150%; 
+}
+
+
+
